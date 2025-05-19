@@ -1,0 +1,11 @@
+torch>=2.0.0
+numpy
+transformers>=4.40.0
+bitsandbytes
+streamlit
+python-dotenv
+pymupdf
+faiss-cpu
+langchain
+langchain-community
+langchain-core
