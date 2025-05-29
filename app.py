@@ -170,8 +170,6 @@ class RAGSystem:
         return self.llm_service.generate_response(prompt)
 
 def main():
-    """Main application entry point."""
-    # Initialize configuration and services
     config = Config()
     load_dotenv()
     
@@ -217,7 +215,6 @@ def main():
             else:
                 st.warning("Please upload at least one PDF file")
     
-    # Main interaction
     question = st.text_input("Ask a question about your documents")
     if question and st.button("Get Answer"):
         try:
